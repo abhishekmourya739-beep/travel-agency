@@ -23,7 +23,11 @@ const app = express();
 const port = process.env.PORT;
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:5173"],
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:5173",
+      "https://abhishek-travel-admin.netlify.app/",
+    ],
     credentials: true,
   }),
 );
