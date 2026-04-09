@@ -10,9 +10,9 @@ import Users from "../pages/Users";
 import ProtectedRoute from "./ProtectedRoute";
 import AddLocation from "../pages/AddLocation";
 import AddHotel from "../pages/AddHotel";
-import AddUser from "../pages/AddUSer";
 import Profile from "../pages/Profile";
 import Settings from "../pages/Settings";
+import AddUser from "../pages/AddUSer";
 
 export default function AppRouter() {
   return (
