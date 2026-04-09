@@ -27,7 +27,7 @@ app.use(
       "http://localhost:3000",
       "http://localhost:5173",
       "https://abhishek-travel-admin.netlify.app",
-      "https://travel-agency-abhishek.vercel.app/",
+      "https://travel-agency-abhishek.vercel.app",
     ],
     credentials: true,
   }),
