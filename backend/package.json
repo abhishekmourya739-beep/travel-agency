@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon --exec babel-node index.js",
+    "start": "node index.js",
+    "dev": "nodemon --exec babel-node index.js",
     "seed:locations": "node seeders/locationSeeder.js",
     "seed:hotels": "node seeders/hotelSeeder.js",
     "seed:packages": "node seeders/packageSeeder.js"
