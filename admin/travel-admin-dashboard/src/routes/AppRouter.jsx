@@ -12,7 +12,7 @@ import AddLocation from "../pages/AddLocation";
 import AddHotel from "../pages/AddHotel";
 import Profile from "../pages/Profile";
 import Settings from "../pages/Settings";
-import AddUser from "../pages/AddUSer";
+import AddUser from "../pages/UserAdd";
 
 export default function AppRouter() {
   return (
