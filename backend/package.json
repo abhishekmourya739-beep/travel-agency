@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
+    "build": "babel . --out-dir dist --copy-files --ignore node_modules",
+    "start": "node dist/index.js",
     "dev": "nodemon --exec babel-node index.js",
     "seed:locations": "node seeders/locationSeeder.js",
     "seed:hotels": "node seeders/hotelSeeder.js",
