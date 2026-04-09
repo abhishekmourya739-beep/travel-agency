@@ -26,7 +26,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:5173",
-      "https://abhishek-travel-admin.netlify.app/",
+      "https://abhishek-travel-admin.netlify.app",
     ],
     credentials: true,
   }),
